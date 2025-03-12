@@ -10,14 +10,14 @@ async function init(){
         resolvers: [
             TestResolver
         ],
-        emitSchemaFile: path.resolve('./resolvers/schema.gql')
+        emitSchemaFile: path.resolve('./src/resolvers/schema.gql')
     });
 
     const server = new ApolloServer({schema});
 
-    const {url} = await server.listen();
+    const { url } = await server.listen();
 
-
+    console.log('Started server on', url);
 }
 
 init();
