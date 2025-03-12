@@ -12,6 +12,6 @@ export class TestResolver {
     @Mutation(() => Boolean)
     async createTest(@Arg('data') data: CreateTestInput){
 
-        return true;
+        return data;
     }
 }

@@ -3,8 +3,8 @@ import { Field, ObjectType } from "type-graphql";
 @ObjectType()
 export class Test{
     @Field()
-    createdAt: Date
+    createdAt: Date;
 
     @Field()
-    deletedAt: Date
+    deletedAt: Date;
 }
