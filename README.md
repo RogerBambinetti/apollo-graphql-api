@@ -1,10 +1,10 @@
-# Graphql API - NodeJS + Apollo Server
+# GraphQL API - NodeJS + Apollo Server
 
 [![English](https://img.shields.io/badge/lang-english-blue.svg)](README.md)
 [![Português](https://img.shields.io/badge/lang-portuguese-green.svg)](README.pt-br.md)
 
 ## Description
-This project consists of a basic example Graphql API built with Apollo Sever and TypeGraphql for code-first approach.
+This project consists of a basic example GraphQL API built with Apollo Sever and TypeGraphQL for code-first approach.
 
 ## Requirements
 
